@@ -109,7 +109,7 @@ function StepUpHomePage() {
               <Stack direction={{ xs: "column", sm: "row" }} spacing={2} alignItems="center">
                 <IconButton aria-label="new" sx={{ bgcolor: "#fff", border: `1px solid ${COLORS.dark}14` }}><Icon>add_rounded</Icon></IconButton>
                 <TextField fullWidth placeholder={lang === "it" ? "Chiedi a StepUp AI se stai progredendo" : "Ask StepUp AI if you're progressing"} variant="standard" InputProps={{ disableUnderline: true, sx: { fontSize: 18 } }} />
-                <IconButton aria-label="go" onClick={() => setOpenDialog(true)} sx={{ bgcolor: COLORS.primary, color: "#fff" }}><Icon>add_upward_rounded</Icon></IconButton>
+                <IconButton aria-label="go" onClick={() => setOpenDialog(true)} sx={{ bgcolor: COLORS.primary, color: "#fff" }}><Icon>arrow_upward_rounded</Icon></IconButton>
               </Stack>
             </Box>
 
