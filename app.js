@@ -1,6 +1,7 @@
 const { useState, useEffect } = React;
 const { Container, Typography, Box, Button, TextField, IconButton, Stack, Dialog, DialogTitle, DialogContent, DialogActions } = MaterialUI;
-const { AddRounded, ArrowUpwardRounded } = MaterialUIIcons;
+/*const { AddRounded, ArrowUpwardRounded } = MaterialUIIcons;*/
+const { Icon } = MaterialUI;
 
 const COLORS = { primary: "#007BFF", dark: "#12242e", light: "#f2f7fb" };
 
